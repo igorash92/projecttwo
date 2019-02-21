@@ -1,0 +1,25 @@
+{
+  "name": "projecttwo",
+  "version": "1.0.0",
+  "description": "responsive web design",
+  "main": "index.js",
+      "scripts": {
+      "scss": "./node_modules/node-sass/bin/node-sass --output-style compressed index.scss > styles.css",
+      "scss:watch": "./node_modules/node-sass/bin/node-sass --watch --output-style compressed index.scss > styles.css"
+    },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorash92/projecttwo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igorash92/projecttwo/issues"
+  },
+  "homepage": "https://github.com/igorash92/projecttwo#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
